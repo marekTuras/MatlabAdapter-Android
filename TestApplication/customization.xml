@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<schema>
+  <block name="Analog Output">
+    <parameter>SampleTime</parameter>
+    <parameter>DrvOptions</parameter>
+    <parameter>MaxMissedTicks</parameter>
+  </block>
+  <block name="G2">
+    <parameter>SampleTime</parameter>
+    <parameter>Gain</parameter>
+  </block>
+  <block name="G1">
+    <parameter>Gain</parameter>
+    <parameter>SampleTime</parameter>
+  </block>
+  <block name="To Workspace3">
+    <parameter>VariableName</parameter>
+    <parameter>SampleTime</parameter>
+    <parameter>Decimation</parameter>
+  </block>
+</schema>

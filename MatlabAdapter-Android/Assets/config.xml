@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<application>
+  <config>
+    <mainResources>MatlabAdapter_v1.5/rs/matlab/</mainResources>
+    <getModelInfoPath>simulink/getModelInfo</getModelInfoPath>
+    <checkMatlabStatusPath>isMatlabRunning</checkMatlabStatusPath>
+    <stopMatlabPath>stopMatlab</stopMatlabPath>
+    <startMatlabPath>startMatlab</startMatlabPath>
+    <openSimulinkModelPath>simulink/openModel</openSimulinkModelPath>
+    <ip>http://192.168.56.1:8080/</ip>
+    <changeParamValuePath>simulink/setParamValue</changeParamValuePath>
+    <getParamValuePath>simulink/getParamValue</getParamValuePath>
+    <getScopeData>simulink/getScopeData</getScopeData>
+  </config>
+</application>
